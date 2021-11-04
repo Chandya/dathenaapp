@@ -1,12 +1,19 @@
-import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import TopMenu from "./components/TopMenu/TopMenu";
+import HomePage from "./pages/HomePage";
+import "./App.css";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-      <h2>Author: Chandya</h2>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <TopMenu />
+      <Switch>
+        <Route path="/dathenaapp" component={HomePage} exact />
+      </Switch>
+    </Router>
   );
 }
 
