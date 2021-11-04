@@ -19,6 +19,8 @@ import {
     Tooltip,
 } from '@material-ui/core';
 
+import UpdateModal from '../UpdateModal/UpdateModal';
+
 function Users(props: any) {
     const [users, setUsers] = useState<User[]>()
     let loading = props.loading;
@@ -65,11 +67,7 @@ function Users(props: any) {
                                     <WidgetLgUser>{u.email}</WidgetLgUser>
                                     <WidgetLgUser>{formatDate(u.dob)}</WidgetLgUser>
                                     <WidgetLgAmount>
-                                    <Tooltip title="Update">
-                                        <IconButton aria-label="update" color='secondary' onClick={() => handleUpdateButton(u.id)}>
-                                            <UpdateIcon />
-                                        </IconButton>
-                                    </Tooltip>
+                                    <UpdateModal id={u.id} />
                                     </WidgetLgAmount>
                                     <WidgetLgAmount>
                                     <Tooltip title="Delete">

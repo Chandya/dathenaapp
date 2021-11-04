@@ -26,6 +26,7 @@ import {
 import Pagination from '@material-ui/lab/Pagination';
 
 import Users from "./Users";
+import CreateModal from "../CreateModal/CreateModal";
 
 
 function HomePage() {
@@ -188,9 +189,7 @@ function HomePage() {
                         <MenuItem onClick={sortNewestFirst}>Old to New</MenuItem>
                         <MenuItem onClick={sortOldestFirst}>New to Old</MenuItem>
                     </Menu>
-                    <Tooltip title="Create User">
-                        <IconButton onClick={() => setShowCreateModal(true)}><CreateIcon color="secondary"/></IconButton>
-                    </Tooltip>
+                    <CreateModal lastId={ogUsers.length}/>
                 </SortIconWrapper>
                 </SubHeadingWrapper>
                 <Users currentUsers={currentUsers} loading={loading} />
