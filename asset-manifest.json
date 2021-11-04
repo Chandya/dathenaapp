@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dathenaapp/static/css/main.d8c1b480.chunk.css",
+    "main.js": "/dathenaapp/static/js/main.c620d5d8.chunk.js",
+    "main.js.map": "/dathenaapp/static/js/main.c620d5d8.chunk.js.map",
+    "runtime-main.js": "/dathenaapp/static/js/runtime-main.274aa55c.js",
+    "runtime-main.js.map": "/dathenaapp/static/js/runtime-main.274aa55c.js.map",
+    "static/js/2.802e2558.chunk.js": "/dathenaapp/static/js/2.802e2558.chunk.js",
+    "static/js/2.802e2558.chunk.js.map": "/dathenaapp/static/js/2.802e2558.chunk.js.map",
+    "static/js/3.f1e4e3d8.chunk.js": "/dathenaapp/static/js/3.f1e4e3d8.chunk.js",
+    "static/js/3.f1e4e3d8.chunk.js.map": "/dathenaapp/static/js/3.f1e4e3d8.chunk.js.map",
+    "index.html": "/dathenaapp/index.html",
+    "static/css/main.d8c1b480.chunk.css.map": "/dathenaapp/static/css/main.d8c1b480.chunk.css.map",
+    "static/js/2.802e2558.chunk.js.LICENSE.txt": "/dathenaapp/static/js/2.802e2558.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.274aa55c.js",
+    "static/js/2.802e2558.chunk.js",
+    "static/css/main.d8c1b480.chunk.css",
+    "static/js/main.c620d5d8.chunk.js"
+  ]
+}
